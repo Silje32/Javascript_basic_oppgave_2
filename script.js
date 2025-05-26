@@ -30,6 +30,7 @@ function myNumber(num1) {
   return num1();
 }
 
+// Calling the function
 console.log(num1);
 myNumber();
 
