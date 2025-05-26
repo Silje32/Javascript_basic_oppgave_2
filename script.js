@@ -27,11 +27,12 @@ function myNumber(num1) {
   } else {
     num1 === 1, 3, 5, 7, 9;
   }
+  return num1();
 }
 
 console.log(num1);
+myNumber();
 
-return num1();
 /******************************************************************************
 2.
 
