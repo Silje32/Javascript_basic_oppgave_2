@@ -31,8 +31,7 @@ function myNumber(num1) {
 }
 
 // Calling the function
-console.log(myNumber);
-myNumber();
+console.log(myNumber(num1));
 
 /******************************************************************************
 2.
