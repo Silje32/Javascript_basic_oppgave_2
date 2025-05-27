@@ -23,11 +23,12 @@ funksjonen)
 
 // Skriv koden for oppgave 1 her
 function myNumber(num1) {
+  const numbers = "even or uneven numbers";
   if ((num1 === 2, 4, 6, 8, 10)) {
   } else {
     num1 === 1, 3, 5, 7, 9;
   }
-  return num1();
+  return numbers;
 }
 
 // Calling the function
