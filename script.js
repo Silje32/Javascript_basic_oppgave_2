@@ -83,16 +83,16 @@ function myTime(name, time) {
 
   if (time < 0  && time > 23) {
     return ("Time not valid");
-  else if  (13 < 5 < 0) {
+  else if  (time < 5 < 0) {
     return ("Good night" + "name");
   }
-  else if (13 ) {
+  else if (time)  {
      return ("Good morning" + "name");
   }
-  else if (13 )  {
+  else if (time)   {
       return ("Good day" + "name");
   }
-  else if (13) {
+  else if (time) {
       return ("Good evening" + "name");
   }
   else {
