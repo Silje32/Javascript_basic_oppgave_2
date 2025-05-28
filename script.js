@@ -50,9 +50,9 @@ Eksempel: "Dette er kult" skal returnere "DETTE ER KULT!"
 
 // Skriv koden for oppgave 2 her
 function transform(string) {
-  const string = "Dette er kult";
+  const Mystring = "Dette er kult";
 
-  return console.log(string.toUpperCase);
+  return console.log(Mystring.toUpperCase());
 }
 
 // Calling the function
