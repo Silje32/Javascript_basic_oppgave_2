@@ -49,6 +49,16 @@ Eksempel: "Dette er kult" skal returnere "DETTE ER KULT!"
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
+function transform(string) {
+  if (string.toUpperCase) {
+    return console.log("Dette er kult");
+  } else {
+    return console.log("DETTE ER KULT!");
+  }
+}
+
+// Calling the function
+transform();
 
 /******************************************************************************
 3.
