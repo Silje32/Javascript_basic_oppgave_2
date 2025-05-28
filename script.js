@@ -79,7 +79,16 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
+function Myfunction(Lola, 13) {
+  if (13 < 0 ) {
+  else {
+    return ("Error");
+    }
+  }
+  
+}
 
+Myfunction();
 /******************************************************************************
 4.
 
