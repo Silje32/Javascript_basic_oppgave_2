@@ -81,7 +81,8 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 // Skriv koden for oppgave 3 her
 function myTime(name, time) {
 
-  if (13 < 0  && 13 > 23) {
+  if (time < 0  && time > 23) {
+    return ("Time not valid");
   else if  (13 < 5 < 0) {
     return ("Good night" + "name");
   }
@@ -101,7 +102,8 @@ function myTime(name, time) {
   
 }
 
-myTime();
+// function call
+myTime(Lola, 13);
 
 
 /******************************************************************************
