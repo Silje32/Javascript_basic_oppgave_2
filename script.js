@@ -83,16 +83,16 @@ function myTime(name, time) {
   if (time < 0 || time > 23) {
     console.log("Time not valid");
     if (time >= 0 && time <= 5) {
-      return console.log("Good night" + name);
+      console.log("Good night" + name);
     }
     if (time >= 6 && time <= 11) {
-      return console.log("Good morning" + name);
+      console.log("Good morning" + name);
     }
     if (time >= 12 && time <= 17) {
-      return console.log("Good day" + name);
+      console.log("Good day" + name);
     }
     if (time >= 18 && time <= 23) {
-      return console.log("Good evening" + name);
+      console.log("Good evening" + name);
     } else {
       return console.log("Error");
     }
@@ -100,7 +100,7 @@ function myTime(name, time) {
 }
 
 // function call with "Lola" as a string
-myTime("Lola", 13);
+console.log(myTime()"Lola", 13);
 
 /******************************************************************************
 4.
