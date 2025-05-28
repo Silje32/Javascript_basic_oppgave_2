@@ -82,6 +82,7 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 function myTime(name, time) {
   if (time < 0 || time > 23) {
     console.log("Time not valid");
+  } else {
     if (time >= 0 && time <= 5) {
       console.log("Good night" + name);
     }
@@ -100,7 +101,7 @@ function myTime(name, time) {
 }
 
 // function call with "Lola" as a string
-console.log(myTime()"Lola", 13);
+myTime()("Lola", 13);
 
 /******************************************************************************
 4.
