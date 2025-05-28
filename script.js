@@ -52,9 +52,8 @@ Eksempel: "Dette er kult" skal returnere "DETTE ER KULT!"
 function transform(string) {
   if (string.toUpperCase) {
     return console.log("Dette er kult");
-  } else {
-    return console.log("DETTE ER KULT!");
-  }
+  } else string.toLowerCase;
+  return console.log("DETTE ER KULT!");
 }
 
 // Calling the function
