@@ -79,20 +79,20 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
-function myTime(name, time) {
+function myTime(Lola, time) {
   if (time < 0 && time > 23) {
     console.log("Time not valid");
     if (time >= 0 && time <= 5) {
-      return console.log("Good night" + "name");
+      return console.log("Good night" + "Lola");
     }
     if (time >= 6 && time <= 11) {
-      return console.log("Good morning" + "name");
+      return console.log("Good morning" + "Lola");
     }
     if (time >= 12 && time <= 17) {
-      return console.log("Good day" + "name");
+      return console.log("Good day" + "Lola");
     }
     if (time >= 18 && time <= 23) {
-      return console.log("Good evening" + "name");
+      return console.log("Good evening" + "Lola");
     } else {
       return console.log("Error");
     }
