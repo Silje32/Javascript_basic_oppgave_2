@@ -101,7 +101,7 @@ function myTime(name, time) {
 }
 
 // function call with "Lola" as a string
-myTime()("Lola", 13);
+myTime("Lola", 13);
 
 /******************************************************************************
 4.
