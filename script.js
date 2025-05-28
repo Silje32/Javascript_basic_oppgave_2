@@ -56,7 +56,7 @@ function transform(string) {
 }
 
 // Calling the function
-console.log(transform(string));
+console.log(transform("Dette er kult"));
 
 /******************************************************************************
 3.
