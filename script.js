@@ -80,7 +80,7 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 
 // Skriv koden for oppgave 3 her
 function myTime(Lola, time) {
-  if (time < 0 && time > 23) {
+  if (time < 0 || time > 23) {
     console.log("Time not valid");
     if (time >= 0 && time <= 5) {
       return console.log("Good night" + "Lola");
