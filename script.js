@@ -24,15 +24,16 @@ funksjonen)
 // Skriv koden for oppgave 1 her
 function myNumber(num1) {
   const numbers = num1;
-  if ((num1 === 2, 4, 6, 8, 10)) {
+
+  if ([2, 4, 6, 8, 10].includes(num1)) {
   } else {
-    num1 === 1, 3, 5, 7, 9;
+    [1, 3, 5, 7, 9].includes(num1);
   }
   return numbers;
 }
 
 // Calling the function
-console.log(myNumber(num1));
+console.log(myNumber(4));
 
 /******************************************************************************
 2.
