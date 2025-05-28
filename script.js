@@ -56,7 +56,7 @@ function transform(string) {
 }
 
 // Calling the function
-//console.log(transform());
+console.log(transform());
 
 /******************************************************************************
 3.
