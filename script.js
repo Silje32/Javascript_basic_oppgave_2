@@ -82,17 +82,17 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 function myTime(name, time) {
 
   if (13 < 0  && 13 > 23) {
-  else if (13 < 5 < 0) {
-    return ("God natt");
+  else if  (13 < 5 < 0) {
+    return ("Good night" + "name");
   }
   else if (13 ) {
-     return ("God morgen");
+     return ("Good morning" + "name");
   }
   else if (13 )  {
-      return ("God dag");
+      return ("Good day" + "name");
   }
-  else if {
-      return ("God kveld");
+  else if (13) {
+      return ("Good evening" + "name");
   }
   else {
     return ("Error");
