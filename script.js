@@ -50,14 +50,13 @@ Eksempel: "Dette er kult" skal returnere "DETTE ER KULT!"
 
 // Skriv koden for oppgave 2 her
 function transform(string) {
-  if (string.toUpperCase) {
-    return console.log("Dette er kult");
-  } else string.toLowerCase;
-  return console.log("DETTE ER KULT!");
+  const string = "Dette er kult";
+
+  return console.log(string.toUpperCase);
 }
 
 // Calling the function
-transform();
+console.log(transform());
 
 /******************************************************************************
 3.
