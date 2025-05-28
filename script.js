@@ -79,8 +79,8 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
-function myFunction(Lola, 13) {
-  if (13 < 0 ) {
+function myTime(Lola, 13) {
+  if (13 < 0 ) && (13 > 23) {
   else {
     return ("Error");
     }
@@ -88,7 +88,7 @@ function myFunction(Lola, 13) {
   
 }
 
-myFunction();
+myTime();
 /******************************************************************************
 4.
 
