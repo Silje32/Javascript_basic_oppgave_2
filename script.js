@@ -52,7 +52,7 @@ Eksempel: "Dette er kult" skal returnere "DETTE ER KULT!"
 function transform(string) {
   const Mystring = "Dette er kult";
 
-  return console.log(Mystring.toUpperCase() + "!");
+  return console.log(Mystring.toUpperCase().concat("!"));
 }
 
 // Calling the function
