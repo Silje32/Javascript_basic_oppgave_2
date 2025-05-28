@@ -26,10 +26,11 @@ function myNumber(num1) {
   const numbers = num1;
 
   if ([2, 4, 6, 8, 10].includes(num1)) {
-  } else {
-    [1, 3, 5, 7, 9].includes(num1);
+    return numbers;
+  } else if ([1, 3, 5, 7, 9].includes(num1));
+  {
+    return numbers;
   }
-  return numbers;
 }
 
 // Calling the function
