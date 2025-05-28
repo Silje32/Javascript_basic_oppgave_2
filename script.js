@@ -80,7 +80,6 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 
 // Skriv koden for oppgave 3 her
 function myTime(name, time) {
-  const name ="Lola";
   const time = 13;
 
   if (13 < 0  && 13 > 23) {
