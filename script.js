@@ -69,7 +69,7 @@ Funksjonen skal ta inn 2 parametere:
 Funksjonen skal returnere:
 "Ugyldig tid" hvis timeverdien er mindre enn 0.
 "God natt (mottatt navn)" hvis timeverdien er mellom 0 og 5.
-"God morgen (mottatt navn)" hvis timeverdien er mellom 6 og 11.
+"God morgen (mottatt navn)" hvis timeverdien er mellom 6 og 11. 
 "God dag (mottatt navn)" hvis timeverdien er mellom 12 og 17.
 "God kveld (mottatt navn)" hvis timeverdien er mellom 18 og 23.
 "Ugyldig tid" hvis timeverdien er større enn 23.
@@ -79,16 +79,33 @@ Hvis ingen timeverdi mottas, skal funksjonen returnere en feilmelding.
 ******************************************************************************/
 
 // Skriv koden for oppgave 3 her
-function myTime(Lola, 13) {
-  if (13 < 0 ) && (13 > 23) {
+function myTime(name, time) {
+  const name ="Lola";
+  const time = 13;
+
+  if (13 < 0  && 13 > 23) {
+  else if (13 < 5 < 0) {
+    return ("God natt");
+  }
+  else if (13 ) {
+     return ("God morgen");
+  }
+  else if (13 )  {
+      return ("God dag");
+  }
+  else if {
+      return ("God kveld");
+  }
   else {
     return ("Error");
-    }
+  }
   }
   
 }
 
 myTime();
+
+
 /******************************************************************************
 4.
 
