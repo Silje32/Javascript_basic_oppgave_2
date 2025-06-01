@@ -120,7 +120,7 @@ Eksempel 2: ["En", "To", "Tre", "Fire", "Fem", "Seks"] skal returnere
 
 // Skriv koden for oppgave 4 her
 
-function myArray {
+function myArray() {
 const array = ["Rød", "Grønn", "Blå", "Gul"];
 Return array.pop();
 }
