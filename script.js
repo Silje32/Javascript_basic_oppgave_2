@@ -120,9 +120,8 @@ Eksempel 2: ["En", "To", "Tre", "Fire", "Fem", "Seks"] skal returnere
 
 // Skriv koden for oppgave 4 her
 
-function myArray() {
-  const array = ["Rød", "Grønn", "Blå", "Gul"];
-  return array.pop();
+function myArray(array) {
+  return array.slice(0, 3);
 }
 
 // Calling the function
