@@ -126,7 +126,7 @@ function myArray() {
 }
 
 // Calling the function
-console.log(myArray());
+console.log(myArray([]));
 
 /******************************************************************************
 5.
