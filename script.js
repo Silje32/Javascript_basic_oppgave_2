@@ -121,12 +121,12 @@ Eksempel 2: ["En", "To", "Tre", "Fire", "Fem", "Seks"] skal returnere
 // Skriv koden for oppgave 4 her
 
 function myArray() {
-const array = ["Rød", "Grønn", "Blå", "Gul"];
-return array.pop();
+  const array = ["Rød", "Grønn", "Blå", "Gul"];
+  return array.pop();
 }
 
-Calling the function
-Console.log(myArray());
+// Calling the function
+console.log(myArray());
 
 /******************************************************************************
 5.
