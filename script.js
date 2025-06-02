@@ -164,6 +164,9 @@ function myString(string) {
 
 //Calling the function
 console.log(myString("  Javascript er vanskelig  "));
+console.log(myString(" Det er vanskelig å bruke metoder "));
+console.log(myString("  vanskelig    "));
+
 /******************************************************************************
 6.
 
