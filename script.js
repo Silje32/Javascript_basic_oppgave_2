@@ -121,14 +121,12 @@ Eksempel 2: ["En", "To", "Tre", "Fire", "Fem", "Seks"] skal returnere
 // Skriv koden for oppgave 4 her
 
 function myArray(array) {
-  const array = ["Rød", "Grønn", "Blå", "Gul"];
-
   // Using the method slice to remove the first and last elements.
   return array.slice(1, 2);
 }
 
 // Calling the function.
-console.log(myArray([1, 2]));
+console.log(myArray(["Rød", "Grønn", "Blå", "Gul"]));
 
 /******************************************************************************
 5.
