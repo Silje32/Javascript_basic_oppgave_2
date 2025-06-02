@@ -130,7 +130,7 @@ console.log(myArray(["Rød", "Grønn", "Blå", "Gul"]));
 
 function myNumberArray(number) {
   // Using the method slice to remove the first and last elements.
-  return number.slice(1, 4);
+  return number.slice(1, 5);
 }
 
 //Calling the function.
