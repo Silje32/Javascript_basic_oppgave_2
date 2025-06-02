@@ -128,6 +128,14 @@ function myArray(array) {
 // Calling the function.
 console.log(myArray(["Rød", "Grønn", "Blå", "Gul"]));
 
+function myNumberArray(number) {
+  // Using the method slice to remove the first and last elements.
+  return number.slice(1, 4);
+}
+
+//Calling the function.
+console.log(myNumberArray(["En", "To", "Tre", "Fire", "Fem", "Seks"]));
+
 /******************************************************************************
 5.
 
