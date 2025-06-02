@@ -196,6 +196,14 @@ Ekstra utfordring: Lag et nytt array som kun inkluderer elementer som inneholder
 items.shift();
 console.log(items);
 
+//Erstatt "Viskelær med "Linjal".
+items.replace("Viskelær", "Linjal");
+console.log(items);
+
+// Use the splice method to remove "Penn" and "Notatbok and add "Markeringspenn" in their place.
+items.splice(1, 2, "Markeringspenn");
+console.log(items);
+
 /******************************************************************************
 7.
 
