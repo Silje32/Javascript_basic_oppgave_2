@@ -192,6 +192,10 @@ Ekstra utfordring: Lag et nytt array som kun inkluderer elementer som inneholder
 
 // Skriv koden for oppgave 6 her
 
+//Fjern det første elementet
+items.shift();
+console.log(items);
+
 /******************************************************************************
 7.
 
