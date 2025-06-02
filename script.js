@@ -122,7 +122,7 @@ Eksempel 2: ["En", "To", "Tre", "Fire", "Fem", "Seks"] skal returnere
 
 function myArray(array) {
   // Using the method slice to remove the first and last elements.
-  return array.slice(1, 2);
+  return array.slice(1, 3);
 }
 
 // Calling the function.
