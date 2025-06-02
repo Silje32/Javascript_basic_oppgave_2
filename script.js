@@ -157,6 +157,13 @@ Eksempel 3: "   vanskelig        " skal returnere "gøy".
 
 // Skriv koden for oppgave 5 her
 
+function myString(string) {
+  // Using the method replace to replace "vanskelig" with "gøy".
+  return string.replace("vanskelig", "gøy").trim();
+}
+
+//Calling the function
+console.log(myString("  Javascript er vanskelig  "));
 /******************************************************************************
 6.
 
