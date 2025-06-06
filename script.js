@@ -203,13 +203,14 @@ console.log(items);
 items.splice(0, 2, "Markeringspenn");
 console.log(items);
 
-// Combine all elements in the array into a single string using "|" as a separator.
+// 4. Combine all elements in the array into a single string using "|" as a separator.
 const combinedString = items.join("|");
 console.log(combinedString);
 
-// Make a new array that only includes elements that contain the letter "e".
-const filteredArray = items.filter(items.includes("e"));
-console.log(filteredArray);
+// 5. Make a new array that only includes elements that contain the letter "e".
+let filteredArray = items.filter(items.includes("e"));
+newArray = filteredArray;
+console.log(items.filteredArray());
 
 /******************************************************************************
 7.
