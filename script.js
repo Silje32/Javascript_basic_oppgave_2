@@ -192,16 +192,15 @@ Ekstra utfordring: Lag et nytt array som kun inkluderer elementer som inneholder
 
 // Skriv koden for oppgave 6 her
 
-//Fjern det første elementet
+// 1.Fjern det første elementet
 items.shift();
 console.log(items);
 
-//Erstatt "Viskelær med "Linjal".
-items.replace("Viskelær", "Linjal");
-console.log(items);
+// 2. Erstatt "Viskelær med "Linjal".
+// console.log(items.replace("Viskelær", "Linjal"));
 
-// Use the splice method to remove "Penn" and "Notatbok and add "Markeringspenn" in their place.
-items.splice(1, 2, "Markeringspenn");
+// 3. Use the splice method to remove "Penn" and "Notatbok and add "Markeringspenn" in their place.
+items.splice(0, 2, "Markeringspenn");
 console.log(items);
 
 // Combine all elements in the array into a single string using "|" as a separator.
