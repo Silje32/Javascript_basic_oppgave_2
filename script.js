@@ -197,7 +197,8 @@ items.shift();
 console.log(items);
 
 // 2. Erstatt "Viskelær med "Linjal".
-// console.log(items.replace("Viskelær", "Linjal"));
+items.splice(3, 1, "Linjal");
+console.log(items);
 
 // 3. Use the splice method to remove "Penn" and "Notatbok and add "Markeringspenn" in their place.
 items.splice(0, 2, "Markeringspenn");
@@ -208,9 +209,9 @@ const combinedString = items.join("|");
 console.log(combinedString);
 
 // 5. Make a new array that only includes elements that contain the letter "e".
-let filteredArray = items.filter;
-newArray = filteredArray.filter(items.includes("e"));
-console.log(newArray());
+let filteredArray = items;
+let newArray = filteredArray.lenght(items.includes("e"));
+console.log(newArray.join(" - "));
 
 /******************************************************************************
 7.
