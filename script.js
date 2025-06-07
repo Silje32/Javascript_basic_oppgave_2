@@ -209,10 +209,10 @@ const combinedString = items.join("|");
 console.log(combinedString);
 
 // 5. Make a new array that only includes elements that contain the letter "e".
-let filteredArray = items.lenght;
+const newArray = items.lenght;
 if (items.includes("e")) {
 }
-// console.log(filteredArray.push(items));
+console.log(newArray);
 
 /******************************************************************************
 7.
