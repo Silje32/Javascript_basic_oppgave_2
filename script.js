@@ -197,7 +197,7 @@ items.shift();
 console.log(items);
 
 // 2. Erstatt "Viskelær med "Linjal".
-items.splice(3, 1, "Linjal");
+items.splice(2, 1, "Linjal");
 console.log(items);
 
 // 3. Use the splice method to remove "Penn" and "Notatbok and add "Markeringspenn" in their place.
@@ -212,7 +212,7 @@ console.log(combinedString);
 let filteredArray = items.lenght;
 if (items.includes("e")) {
 }
-console.log(filteredArray.push(items));
+// console.log(filteredArray.push(items));
 
 /******************************************************************************
 7.
